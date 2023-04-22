@@ -1,0 +1,25 @@
+스프링 시큐리티
+
+시큐리티 세션안에 세션을 따로 관리하는게 있음
+Authentication 객체를 담아줘야함
+필요할때마다 컨트롤러에서 DI 해줘야함
+UserDetails 타입하고 
+-> 일반적인 로그인
+OAuth2User 타입이 들어갈 수 있음
+-> OAuth 로그인
+
+들어가게 되면 세션이 생기고 로그인이 됨
+
+OAuth도 PrincipalDetails에 담아두면 됨
+
+시큐리티 세션에 담길 수 있는건
+Authentication 객체만 가능
+담을 수 있는 필드가 2개가 있음
+OAuth2User와 UserDetails 타입을 담을 수 있음
+회원가입 -> User 오브젝트가 필요함
+
+JWT = Json Web Token
+왜 사용되고 어디에 쓰는지?
+
+
+
